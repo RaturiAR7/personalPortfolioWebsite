@@ -256,7 +256,7 @@ const projects = [
       },
     ],
     image: ar7Mart,
-    source_code_link: "https://leafy-faloodeh-23373b.netlify.app",
+    source_code_link: "https://ar7mart.netlify.app",
   },
   {
     name: "Cafe Website",
@@ -277,7 +277,7 @@ const projects = [
       },
     ],
     image: cafewebsite,
-    source_code_link: "https://visionary-cajeta-8190c9.netlify.app/",
+    source_code_link: "https://ar7coffeetimecafe.netlify.app",
   },
   {
     name: "Speed Typing Game",
@@ -298,7 +298,7 @@ const projects = [
       },
     ],
     image: typinggame,
-    source_code_link: "https://spontaneous-meringue-6fbe00.netlify.app",
+    source_code_link: "https://speedtyperar7.netlify.app",
   },
   {
     name: "Meme-Generator",
@@ -319,7 +319,7 @@ const projects = [
       },
     ],
     image: meme,
-    source_code_link: "https://funny-dango-7a3513.netlify.app/",
+    source_code_link: "https://ar7memegenerator.netlify.app",
   },
   {
     name: "To Do List App",
@@ -340,7 +340,7 @@ const projects = [
       // },
     ],
     image: todo,
-    source_code_link: "https://calm-cendol-b20fb6.netlify.app",
+    source_code_link: "https://todoar7.netlify.app",
   },
 ];
 
