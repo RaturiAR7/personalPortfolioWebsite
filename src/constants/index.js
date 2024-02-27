@@ -28,6 +28,7 @@ import {
   // tesla,
   // shopify,
   ar7Mart,
+  braintumor,
   cafewebsite,
   typinggame,
   todo,
@@ -58,14 +59,14 @@ const services = [
     title: "Frontend Developer",
     icon: backend,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  {
+    title: "React Native Developer",
+    icon: mobile,
+  },
+  {
+    title: "Content Creator",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -257,6 +258,35 @@ const projects = [
     ],
     image: ar7Mart,
     source_code_link: "https://ar7mart.firebaseapp.com/",
+  },
+  {
+    name: "Brain Tumor Detection",
+    description:
+      "A webapp which integrates a Machine Learning model to predict Brain Tumor on users MRI scan images.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React-three-fibre",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CNN",
+        color: "red-text-gradient",
+      },
+    ],
+    image: braintumor,
+    source_code_link: "https://ar7braintumordetection.netlify.app",
   },
   {
     name: "Cafe Website",

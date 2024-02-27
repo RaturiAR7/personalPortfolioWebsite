@@ -34,6 +34,7 @@ import codev from "./company/CodevLogo.png";
 
 import ar7Mart from "./AR7 mart.jpg";
 import todo from "./todo.png";
+import braintumor from "./braintumor.png";
 import typinggame from "./typinggame.png";
 import cafewebsite from "./cafewebsite.png";
 import meme from "./meme-generator.jpg";
@@ -75,5 +76,6 @@ export {
   todo,
   cafewebsite,
   typinggame,
+  braintumor,
   meme,
 };
