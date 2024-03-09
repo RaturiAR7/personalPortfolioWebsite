@@ -30,6 +30,7 @@ import threejs from "./tech/threejs.png";
 import school from "./company/school.png";
 import college from "./company/college.png";
 import codev from "./company/CodevLogo.png";
+import Tcipher from "./company/Tcipher.png";
 // import tesla from "./company/tesla.png";
 
 import ar7Mart from "./AR7 mart.jpg";
@@ -70,6 +71,7 @@ export {
   school,
   college,
   codev,
+  Tcipher,
   // starbucks,
   // tesla,
   ar7Mart,

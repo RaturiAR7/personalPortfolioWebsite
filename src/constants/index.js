@@ -27,6 +27,7 @@ import {
   // starbucks,
   // tesla,
   // shopify,
+  Tcipher,
   ar7Mart,
   braintumor,
   cafewebsite,
@@ -193,6 +194,20 @@ const experiences = [
       "Managing social media platforms of the club",
       "Conduct various workshops and seminars for the students",
       "Creating content for Co-Dev club social media accounts",
+    ],
+  },
+  {
+    title: "Frontend Intern At Tcipher",
+    company_name: "Tcipher",
+    icon: Tcipher,
+    iconBg: "#E6DEDD",
+    date: "March 2024 – Present",
+    points: [
+      "Developing components for Tcipher applications and web applications.",
+      "Using React and React Native to build amazing websites, web apps and mobile applications.",
+      "Designing and adapting Uls as per the needs.",
+      "Collaborate with the development team to write efficient, reusable, and scalable code",
+      "Create and maintain APIs (Application Programming Interfaces) to enable communication between the frontend and backend systems",
     ],
   },
   // {
