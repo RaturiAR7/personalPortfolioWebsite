@@ -148,7 +148,7 @@ const experiences = [
     company_name: "Marshall School",
     icon: school,
     iconBg: "#E6DEDD",
-    date: "2020 - 2021",
+    date: " 2018 -  2019",
     points: [
       // "Developing and maintaining web applications using React.js and other related technologies.",
       // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -161,7 +161,7 @@ const experiences = [
     company_name: "Marshall School",
     icon: school,
     iconBg: "#E6DEDD",
-    date: " 2018 -  2019",
+    date: "2020 - 2021",
     points: [
       // "Developing and maintaining web applications using React.js and other related technologies.",
       // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
