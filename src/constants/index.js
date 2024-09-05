@@ -56,11 +56,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Full Stack Web Developer",
     icon: backend,
   },
   {
@@ -196,13 +196,12 @@ const experiences = [
     company_name: "Tcipher",
     icon: Tcipher,
     iconBg: "#E6DEDD",
-    date: "March 2024 – Present",
+    date: "March 2024 – August 2024",
     points: [
-      "Developing components for Tcipher applications and web applications.",
-      "Using React and React Native to build amazing websites, web apps and mobile applications.",
-      "Designing and adapting Uls as per the needs.",
-      "Collaborate with the development team to write efficient, reusable, and scalable code",
-      "Create and maintain APIs (Application Programming Interfaces) to enable communication between the frontend and backend systems",
+      "Built Tcipher marketing website from scratch (tcipher.com)",
+      "Development of CRM platform",
+      "Collaborated with the development team to write efficient, reusable, and scalable code",
+      "Integrated several API's in CRM platform",
     ],
   },
   // {
