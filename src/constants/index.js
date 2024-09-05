@@ -5,19 +5,17 @@ import {
   web,
   javascript,
   java,
-  bootstrap,
   html,
   css,
   cplus,
   reactjs,
-  tailwind,
   nodejs,
   mongodb,
   git,
   python,
   threejs,
-  // typescript,
-  // redux,
+  typescript,
+  redux,
   // figma,
   // docker,
   school,
@@ -34,12 +32,17 @@ import {
   typinggame,
   todo,
   meme,
+  threadsApp,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "work",
@@ -89,10 +92,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -113,10 +112,6 @@ const technologies = [
     icon: java,
   },
   {
-    name: "bootstrap",
-    icon: bootstrap,
-  },
-  {
     name: "python",
     icon: python,
   },
@@ -124,14 +119,14 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   // {
   //   name: "figma",
   //   icon: figma,
@@ -253,6 +248,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Threads App Clone",
+    description:
+      "A full stack Threads App Clone built built using Next.js. Authentication achieved using Clerk. Best practices used for SEO.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "",
+      },
+    ],
+    image: threadsApp,
+    source_code_link: "https://threadsclonear7.vercel.app/",
+  },
   {
     name: "AR7 mart",
     description:
