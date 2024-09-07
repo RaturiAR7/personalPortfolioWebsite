@@ -14,15 +14,13 @@ const Tech = () => {
       </motion.div>
 
       <div className='mt-20 flex flex-row flex-wrap justify-center gap-10'>
-        {window.innerWidth > "800" ? (
-          technologies.map((technology) => (
-            <div className='w-28 h-28' key={technology.name}>
-              <BallCanvas icon={technology.icon} />
-            </div>
-          ))
-        ) : (
-          <div className='grid grid-cols-2 md:grid-cols-3 md:gap-20 gap-16'>
-            {technologies.map((technology) => (
+        {window.innerWidth > "800"
+          ? technologies.map((technology) => (
+              <div className='w-28 h-28' key={technology.name}>
+                <BallCanvas icon={technology.icon} />
+              </div>
+            ))
+          : technologies.map((technology) => (
               <div
                 className=' w-20 h-20 flex flex-col justify-center'
                 key={technology.name}
@@ -38,8 +36,6 @@ const Tech = () => {
                 </p>
               </div>
             ))}
-          </div>
-        )}
       </div>
     </>
   );
