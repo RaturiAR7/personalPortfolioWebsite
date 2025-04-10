@@ -33,6 +33,7 @@ import {
   todo,
   meme,
   threadsApp,
+  kanban,
 } from "../assets";
 
 export const navLinks = [
@@ -248,9 +249,34 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Kanban Flow",
+    description:
+      "A full stack Kanban Board built using React.js and Express.js. Custom authentication and authorization using JWT token. Drag and Drop functionlity in Board.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "DND-Kit",
+        color: "",
+      },
+    ],
+    image: kanban,
+    source_code_link: "https://kanban-board-ar7.vercel.app/",
+  },
+  {
     name: "Threads App Clone",
     description:
-      "A full stack Threads App Clone built built using Next.js. Authentication achieved using Clerk. Best practices used for SEO.",
+      "A full stack Threads App Clone built using Next.js. Authentication achieved using Clerk. Best practices used for SEO.",
     tags: [
       {
         name: "Next.js",

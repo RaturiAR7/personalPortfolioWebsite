@@ -40,6 +40,7 @@ import typinggame from "./typinggame.png";
 import cafewebsite from "./cafewebsite.png";
 import meme from "./meme-generator.jpg";
 import threadsApp from "./threadsClonePic.png";
+import kanban from "./kanban.png";
 
 export {
   logo,
@@ -82,4 +83,5 @@ export {
   braintumor,
   meme,
   threadsApp,
+  kanban,
 };
