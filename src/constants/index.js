@@ -34,6 +34,8 @@ import {
   meme,
   threadsApp,
   kanban,
+  osmosys,
+  chatapp,
 } from "../assets";
 
 export const navLinks = [
@@ -170,7 +172,7 @@ const experiences = [
     company_name: "Graphic Era Hill University",
     icon: college,
     iconBg: "#E6DEDD",
-    date: "Oct 2021 - Present",
+    date: "Oct 2021 - June 2025",
     points: [
       // "Developing and maintaining web applications using React.js and other related technologies.",
       // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -183,7 +185,7 @@ const experiences = [
     company_name: "Co-Dev club (Gehu)",
     icon: codev,
     iconBg: "#E6DEDD",
-    date: "June 2022 – Present",
+    date: "June 2022 – June 2025",
     points: [
       "Conducting various technical and non-technical events.",
       "Organizing and manage various hackathons.",
@@ -205,19 +207,18 @@ const experiences = [
       "Integrated several API's in CRM platform",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "API Developer",
+    company_name: "Osmosys Software Solutions",
+    icon: osmosys,
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - July 2025",
+    points: [
+      " Trained in front-end and back-end technologies including HTML, CSS, JavaScript, C# and ASP.NET Core.",
+      "Collaborated with the development team to identify, test, and debug over 100+ issues, improving overall application stability",
+      " Developed and refactored APIs for the product using ASP.NET, enhancing performance and maintainability by 20%.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -248,6 +249,35 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Chat Application",
+    description:
+      "A full stack scalable chat application built using Next.js, Node.js, Redis, Socket.io and Turbo-Repo. Scalable application that lets users chat with people globally and in private rooms.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redis",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "",
+      },
+      {
+        name: "Turbo-Repo",
+        color: "green-text-gradient",
+      },
+    ],
+    image: chatapp,
+    source_code_link: "https://scalable-chat-app-web-gilt.vercel.app/",
+  },
   {
     name: "Kanban Flow",
     description:

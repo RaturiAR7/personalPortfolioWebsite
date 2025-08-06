@@ -31,7 +31,7 @@ import school from "./company/school.png";
 import college from "./company/college.png";
 import codev from "./company/CodevLogo.png";
 import Tcipher from "./company/Tcipher.png";
-// import tesla from "./company/tesla.png";
+import osmosys from "./company/osmosys.png";
 
 import ar7Mart from "./AR7 mart.jpg";
 import todo from "./todo.png";
@@ -41,6 +41,7 @@ import cafewebsite from "./cafewebsite.png";
 import meme from "./meme-generator.jpg";
 import threadsApp from "./threadsClonePic.png";
 import kanban from "./kanban.png";
+import chatapp from "./chatapp.png";
 
 export {
   logo,
@@ -74,9 +75,11 @@ export {
   college,
   codev,
   Tcipher,
+  osmosys,
   // starbucks,
   // tesla,
   ar7Mart,
+  chatapp,
   todo,
   cafewebsite,
   typinggame,
