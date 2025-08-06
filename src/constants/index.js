@@ -208,7 +208,7 @@ const experiences = [
     ],
   },
   {
-    title: "API Developer",
+    title: "API Developer Intern",
     company_name: "Osmosys Software Solutions",
     icon: osmosys,
     iconBg: "#E6DEDD",
